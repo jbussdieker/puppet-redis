@@ -1,5 +1,5 @@
 class redis(
-  $port = 6379,
+  $port = 6379
 ) {
 
   class {'redis::package':
